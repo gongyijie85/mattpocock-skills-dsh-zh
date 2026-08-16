@@ -1,0 +1,6 @@
+# mattpocock-skills-dsh-zh bundle patch: mount the zh skill provider into the
+# host skill registry (host-plane rows, merged into every agent preset's scope
+# chain).
+- insert:
+    - id: mattpocock-skills-dsh-zh
+      name: 'mattpocock-skills-dsh-zh'
