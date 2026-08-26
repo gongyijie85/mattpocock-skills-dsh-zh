@@ -7,10 +7,16 @@ description: 对用户的计划、决策或想法进行穷追不舍的盘问。�
 
 以 **rounds（轮次）** 的方式推进这棵树。**frontier（前沿）** 是所有前提条件已经确定、可以 _现在就_ 提出的决策——这些问题无需猜测你尚未听到的答案。每一轮提出整个 frontier 上的全部问题：为每个问题编号，并给出你推荐的答案。然后等待用户回答，再进行下一轮。
 
-每个问题都应按如下格式提出：
+按轮次格式化如下：
 
 ```
 ❓ **Q1** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
+
+➡️ <your recommended answer>
+
+---
+
+❓ **Q2** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
 
 ➡️ <your recommended answer>
 ```
