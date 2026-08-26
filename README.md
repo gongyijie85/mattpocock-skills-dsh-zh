@@ -41,6 +41,8 @@ tdd、to-spec、to-tickets、triage、wayfinder、wizard)。
 
 ## 移植与翻译说明
 
+- **同步状态**:与英文版同步更新——0.1.1 补译 grilling 轮次 HR 分隔模板与
+  wait-what 的 `CONTEXT-MAP.md` 指引(to-tickets 的 wide-refactor 内容初版已含)。
 - **正文全译**:25 个 SKILL.md 的正文翻译为自然中文;frontmatter 的 `name`
   保持原样,`description` 译为中文(便于中文触发)。
 - **术语策略**:technical leading words 保留英文 + 首次中文注释,避免翻译
