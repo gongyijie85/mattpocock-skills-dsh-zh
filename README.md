@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/gongyijie85/mattpocock-skills-dsh-zh)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/releases)
 [![CI](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/actions/workflows/ci.yml/badge.svg)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![DSH](https://img.shields.io/badge/DSH-0.1.1--rc.2%2B-4d6bfe)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh)
+[![DSH](https://img.shields.io/badge/DSH-0.1.0--rc.8%2B-4d6bfe)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh)
 [![-中文技能](https://img.shields.io/badge/-中文技能-4d6bfe)]() [![-七课工作流](https://img.shields.io/badge/-七课工作流-4d6bfe)]() [![-grilling](https://img.shields.io/badge/-grilling-4d6bfe)]() [![-to-spec](https://img.shields.io/badge/-to--spec-4d6bfe)]() [![-to-tickets](https://img.shields.io/badge/-to--tickets-4d6bfe)]()
 
 > **English:** Matt Pocock's skills in Chinese for DeepSeek Harness — all 25
@@ -23,7 +23,7 @@
 
 ## 安装
 
-**支持的 DSH 版本**：`>=0.1.1-rc.2`（已在上线版本验证，兼容更高版本）。
+**支持的 DSH 版本**：`>=0.1.0-rc.8`（宿主面仅 `ctx.skills.registerProvider`，覆盖 0.1.0-rc.8 起全部 rc/alpha 线；实测基线 0.1.1-rc.2）。
 
 ```sh
 dsh plugin --profile web add mattpocock-skills-dsh-zh
