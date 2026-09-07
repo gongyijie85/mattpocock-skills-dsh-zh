@@ -1,7 +1,7 @@
 {
   "name": "mattpocock-skills-dsh-zh",
   "description": "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能(grilling、writing-for-agents、wait-what、TDD、code-review 等)正文全部译为中文,适配 DSH 的 Cordis 插件架构。Chinese translation of the full promoted mattpocock/skills set (MIT, (c) Matt Pocock)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "type": "module",
   "engines": {
