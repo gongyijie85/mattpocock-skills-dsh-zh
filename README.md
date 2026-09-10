@@ -31,12 +31,16 @@ dsh plugin --profile web add mattpocock-skills-dsh-zh
 dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh-zh
 ```
 
-装完重启 profile(`dsh web`),25 个技能即可用 `skill` 工具加载(`ask-matt`
-是路由器入口)。
+装完重启 profile(`dsh web`),25 个技能即可用 `skill` 工具加载(`ask-matt-zh`
+是路由器入口)。**所有技能名统一带 `-zh` 后缀**(见下节)。
 
 ## 技能列表
 
-与英文版一致(25 个 = 上游 promoted 集):productivity 7(grill-me、grilling、
+与英文版一致(25 个 = 上游 promoted 集),但**技能名统一带 `-zh` 后缀**(如
+`grilling-zh`、`tdd-zh`)。原因:英文版、中文版与用户级 `~/.agents/skills`
+三者技能名完全相同且 rank 相同时,只有一方能进 catalog(实测中文版净贡献为 0);
+加后缀后不再同名,中文技能方可被加载。下表为去掉后缀的基础名:
+productivity 7(grill-me、grilling、
 handoff、teach、to-questionnaire、wait-what、writing-for-agents)+
 engineering 18(ask-matt、code-review、codebase-design、diagnosing-bugs、
 domain-modeling、grill-with-docs、implement、improve-codebase-architecture、
@@ -48,7 +52,7 @@ tdd、to-spec、to-tickets、triage、wayfinder、wizard)。
 - **同步状态**:与英文版同步更新——0.1.1 补译 grilling 轮次 HR 分隔模板与
   wait-what 的 `CONTEXT-MAP.md` 指引(to-tickets 的 wide-refactor 内容初版已含)。
 - **正文全译**:25 个 SKILL.md 的正文翻译为自然中文;frontmatter 的 `name`
-  保持原样,`description` 译为中文(便于中文触发)。
+  统一为 `<基础名>-zh`(与目录名一致,0.1.5 起),`description` 译为中文(便于中文触发)。
 - **术语策略**:technical leading words 保留英文 + 首次中文注释,避免翻译
   损伤模型对概念的调用。
 - **DSH 适配**:与英文版相同——`Skill tool` → `skill tool`;技能名斜杠前缀

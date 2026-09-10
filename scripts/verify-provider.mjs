@@ -20,11 +20,11 @@ if (!captured) {
 const candidates = await captured.list({ signal: undefined })
 console.log(`discovered ${candidates.length} candidate(s):`)
 const expected = new Set([
-  'ask-matt', 'code-review', 'codebase-design', 'diagnosing-bugs', 'domain-modeling',
-  'grill-me', 'grill-with-docs', 'grilling', 'handoff', 'implement',
-  'improve-codebase-architecture', 'prototype', 'research', 'resolving-merge-conflicts',
-  'setup-matt-pocock-skills', 'tdd', 'teach', 'to-questionnaire', 'to-spec', 'to-tickets',
-  'triage', 'wait-what', 'wayfinder', 'wizard', 'writing-for-agents'
+  'ask-matt-zh', 'code-review-zh', 'codebase-design-zh', 'diagnosing-bugs-zh', 'domain-modeling-zh',
+  'grill-me-zh', 'grill-with-docs-zh', 'grilling-zh', 'handoff-zh', 'implement-zh',
+  'improve-codebase-architecture-zh', 'prototype-zh', 'research-zh', 'resolving-merge-conflicts-zh',
+  'setup-matt-pocock-skills-zh', 'tdd-zh', 'teach-zh', 'to-questionnaire-zh', 'to-spec-zh', 'to-tickets-zh',
+  'triage-zh', 'wait-what-zh', 'wayfinder-zh', 'wizard-zh', 'writing-for-agents-zh'
 ])
 const found = new Set()
 let failures = 0

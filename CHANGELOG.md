@@ -2,6 +2,19 @@
 
 遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)；版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [0.1.5] - 2026-09-10
+
+### Changed（破坏性：技能名变更）
+
+- **25 个技能名统一加 `-zh` 后缀**（如 `grilling` → `grilling-zh`、`tdd` → `tdd-zh`、`writing-for-agents` → `writing-for-agents-zh`）。
+  原因：英文版、中文版与用户级 `~/.agents/skills` 三者技能名完全相同且 rank 相同 → 同名时只有一方能进 catalog，实测**中文版净贡献为 0（中文描述从未进入 catalog）**。加后缀后不再同名，中文技能方可在 catalog 中被加载。
+- 同步更新：25 个技能目录名、25 个 `SKILL.md` 的 frontmatter `name`、`dsh.plugin.json` 的 `contributes.skills`、`scripts/verify-provider.mjs` 期望名单、README 说明。
+- **升级提示**：此前按旧技能名（无后缀）引用本包技能的用法需改用带 `-zh` 的新名。旧名在同环境下实际被英文版/用户级同名技能遮蔽，通常不存在有效引用。
+
+### Notes
+
+- 本次仅重命名与文档同步，技能正文内容未改动。
+
 ## [0.1.4] - 2026-09-10
 
 ### Changed
