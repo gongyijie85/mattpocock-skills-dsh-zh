@@ -2,6 +2,15 @@
 
 遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)；版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
 
+## [0.1.8] - 2026-11-17
+
+### Changed
+
+- 桌面已从 0.2.1 线升级到 `0.2.2-rc.3`（nightly），冒烟通过后补声明：`dshReleases["0.2.2-rc.3"] = "compatible"`，`engines.dsh` 维持 `>=0.1.0-rc.6 <0.3.0`。
+- 技能挂载路径未变，无代码改动。
+- `dsh.plugin.json` 版本号同步到 0.1.8。
+- 0.2.2-rc.1 / rc.2 未单独声明（未在对应构建上冒烟）。
+
 ## [0.1.7] - 2026-11-05
 
 ### Changed
